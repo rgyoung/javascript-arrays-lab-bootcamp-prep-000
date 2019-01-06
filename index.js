@@ -22,3 +22,8 @@ function destructivelyRemoveFirstKitten(name){
  kittens.shift(); 
  return kittens;
 }
+function removeFirstKitten(){
+  var newArray= kittens.shift();
+  return newArray;
+}
+}
